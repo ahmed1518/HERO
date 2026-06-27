@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260">
+  <defs>
+    <linearGradient id="boxGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b3fae"/>
+      <stop offset="100%" stop-color="#0c1f63"/>
+    </linearGradient>
+    <linearGradient id="cabGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dfe6f2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shadow -->
+  <ellipse cx="300" cy="235" rx="260" ry="14" fill="#000" opacity="0.18"/>
+
+  <!-- cargo box -->
+  <rect x="230" y="40" width="330" height="140" rx="10" fill="url(#boxGrad)"/>
+  <rect x="248" y="58" width="294" height="104" rx="6" fill="none" stroke="#3a5fd9" stroke-width="2" opacity="0.5"/>
+  <g transform="translate(300,90)">
+    <circle cx="0" cy="0" r="26" fill="#ffffff" opacity="0.95"/>
+    <text x="0" y="7" font-family="Tahoma, Arial, sans-serif" font-size="13" font-weight="bold" fill="#0c1f63" text-anchor="middle">الوسيط</text>
+  </g>
+  <text x="390" y="100" font-family="Tahoma, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">شركة الوسيط</text>
+  <text x="390" y="124" font-family="Tahoma, Arial, sans-serif" font-size="13" fill="#cfe0ff">توصيل أسرع</text>
+
+  <!-- cab -->
+  <path d="M70,180 L70,110 Q70,95 88,95 L160,95 Q178,95 188,112 L222,160 L222,180 Z" fill="url(#cabGrad)" stroke="#9fb0cc" stroke-width="1.5"/>
+  <path d="M96,108 L150,108 Q160,108 166,118 L182,150 L96,150 Z" fill="#7ea2e8" opacity="0.85"/>
+  <rect x="95" y="150" width="8" height="22" fill="#26314a"/>
+
+  <!-- chassis -->
+  <rect x="60" y="178" width="500" height="14" rx="4" fill="#1d2436"/>
+
+  <!-- wheels -->
+  <g>
+    <circle cx="150" cy="200" r="28" fill="#1c1c22"/>
+    <circle cx="150" cy="200" r="12" fill="#c9ccd6"/>
+  </g>
+  <g>
+    <circle cx="480" cy="200" r="28" fill="#1c1c22"/>
+    <circle cx="480" cy="200" r="12" fill="#c9ccd6"/>
+  </g>
+
+  <!-- headlight -->
+  <rect x="206" y="155" width="10" height="10" rx="2" fill="#ffe89a"/>
+</svg>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أدوات الوسيط | دليل التثبيت والمميزات</title>
+<meta name="description" content="دليل تثبيت سكريبت أدوات الوسيط لـ Tampermonkey — كل ما تحتاج معرفته عن المميزات والاستخدام.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <div class="brand">
+      <span class="brand-dot"></span>
+      <span>أدوات الوسيط</span>
+    </div>
+    <nav class="topnav">
+      <a href="#install">التثبيت</a>
+      <a href="#features">المميزات</a>
+      <a href="#changelog">آخر التحديثات</a>
+    </nav>
+    <a class="btn btn-primary btn-small" href="https://raw.githubusercontent.com/ahmed151825/wasset1.1/main/waseet-tools.user.js" target="_blank" rel="noopener">ثبّت الآن</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <span class="badge">الإصدار 3.20.4</span>
+      <h1>أدوات الوسيط <span>لمركز خدمة العملاء</span></h1>
+      <p>
+        سكريبت Tampermonkey واحد يضيف لك أزرار سريعة، واتساب وSMS جاهز، فحص تأخير تلقائي،
+        تقييم مناديب، ومحفظة شهرية تُحسب لوحدها — كل هذا داخل موقع الوسيط مباشرة.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#install">ابدأ التثبيت</a>
+        <a class="btn btn-ghost" href="#features">شاهد المميزات</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="road"></div>
+      <img src="assets/img/truck.svg" alt="شاحنة الوسيط للنقل العام" class="truck">
+    </div>
+  </div>
+</section>
+
+<section id="install" class="section">
+  <div class="container">
+    <h2 class="section-title">طريقة التثبيت</h2>
+    <p class="section-sub">أربع خطوات بسيطة، تأخذ أقل من دقيقتين.</p>
+
+    <div class="steps">
+      <div class="step-card">
+        <div class="step-num">١</div>
+        <h3>ثبّت إضافة Tampermonkey</h3>
+        <p>إذا ما عندك الإضافة، نزّلها أولاً لمتصفحك (Chrome / Edge / Firefox) من المتجر الرسمي.</p>
+        <a class="step-link" href="https://www.tampermonkey.net/" target="_blank" rel="noopener">صفحة Tampermonkey الرسمية ←</a>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">٢</div>
+        <h3>افتح رابط السكريبت</h3>
+        <p>اضغط زر "ثبّت الآن" بالأعلى أو الرابط التالي، وسيفتح Tampermonkey صفحة التثبيت تلقائياً.</p>
+        <a class="step-link" href="https://raw.githubusercontent.com/ahmed151825/wasset1.1/main/waseet-tools.user.js" target="_blank" rel="noopener">رابط السكريبت ←</a>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">٣</div>
+        <h3>اضغط تثبيت</h3>
+        <p>راجع صلاحيات السكريبت في الصفحة التي تفتح، ثم اضغط زر "Install" داخل نافذة Tampermonkey.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">٤</div>
+        <h3>افتح موقع الوسيط</h3>
+        <p>السكريبت يعمل تلقائياً على <code>alwaseet-iq.net</code> — لا حاجة لأي إعداد إضافي.</p>
+      </div>
+    </div>
+
+    <div class="update-note">
+      <strong>التحديثات تلقائية:</strong> السكريبت يحتوي رابط <code>@updateURL</code>، فـ Tampermonkey يتحقق من وجود إصدار جديد ويحدّثه بنفسه.
+    </div>
+  </div>
+</section>
+
+<section id="features" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">ماذا يقدّم لك السكريبت؟</h2>
+    <p class="section-sub">كل ميزة قابلة للتفعيل أو الإخفاء من لوحة الإعدادات ⚙️ داخل الصفحة.</p>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🔍</div>
+        <h3>أزرار سريعة لكل طلب</h3>
+        <p>عند ظهور رقم الطلب في صفحة مركز خدمة العملاء، تضاف تلقائياً أزرار: قصة الطلب 🔍، أجور التوصيل ➕، تغيير العنوان 🌐، وتقييم المندوب ⭐ — تفتح كل واحدة الصفحة الصحيحة وتعبّئ رقم الطلب لوحدها.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">💬</div>
+        <h3>واتساب وSMS جاهزين</h3>
+        <p>زر واتساب للتاجر 💬 يرسل رسالة جاهزة عن تغيير السعر مع ملاحظات المندوب، وزر واتساب للزبون 📦 يبني رسالة من قالب قابل للتخصيص (اسم المتجر، السعر، رقم الطلب). وزر 📱 يرسل نفس الرسالة كـ SMS.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔎</div>
+        <h3>بحث وفحص تأخير تلقائي</h3>
+        <p>زر 🔎 يبحث عن كل طلبات الزبون برقم هاتفه. وفي الخلفية، السكريبت يفحص الطلبات "قيد التوصيل" كل ٩٠ ثانية (أو يدوياً) ويلوّن الصفوف المتأخرة عن ٢٤ ساعة باللون الأحمر تلقائياً.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📋</div>
+        <h3>نسخ التقارير بضغطة واحدة</h3>
+        <p>في صفحة أجور التوصيل: زر "نسخ التقرير" يبني تقرير يومي كامل (عادي/VIP لكل فئة سعر) جاهز للّصق. وفي صفحة الطلبات الجارية: زر "نسخ قائمة المناديب" يجمع كل الصفحات تلقائياً وينسخها دفعة واحدة.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">⭐</div>
+        <h3>تقييم المناديب أسبوعياً</h3>
+        <p>قيّم أي مندوب (ممتاز / جيد / سيئ) مع ملاحظة اختيارية. السكريبت يحسب نقاط كل مندوب أسبوعياً، يعرض لوحة ترتيب بالميداليات 🥇🥈🥉، ويذكّرك تلقائياً يوم الجمعة بالإحصائية.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">💰</div>
+        <h3>محفظة شهرية تلقائية</h3>
+        <p>عند فتح صفحة الأجور، يحفظ السكريبت أجور اليوم تلقائياً (بدون تكرار يوم العطلة الذي تحدده)، ويحسب مجموع الشهر بالدينار حسب فئة سعر كل طلب — مع إمكانية حذف أي يوم أو نسخ تقرير شهري كامل.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">⚙️</div>
+        <h3>لوحة إعدادات شاملة</h3>
+        <p>أظهر أو أخفِ أي زر، اضبط شفافية الأزرار، خصّص قوالب رسائل الزبون والتقرير اليومي، غيّر أوزان نقاط التقييم وفئات سعر المحفظة — كل ذلك من نافذة إعدادات واحدة ⚙️.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="changelog" class="section">
+  <div class="container">
+    <h2 class="section-title">آخر التحديثات</h2>
+    <div class="changelog-card">
+      <div class="changelog-version">v3.20.4</div>
+      <ul>
+        <li>إصلاح حاسم: المحفظة تقرأ طلبات اليوم الحالي فقط بدلاً من دمج أمس مع اليوم.</li>
+        <li>استخراج التاريخ الفعلي من جداول الصفحة بدل الاعتماد على ساعة الجهاز فقط.</li>
+        <li>كل يوم يُحفظ بإحصائياته الصحيحة منفصلاً عن باقي الأيام.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>سكريبت <code>waseet-tools.user.js</code> — لاستخدام موظفي مركز خدمة العملاء فقط.</p>
+    <a href="https://raw.githubusercontent.com/ahmed151825/wasset1.1/main/waseet-tools.user.js" target="_blank" rel="noopener">عرض الكود المصدري ←</a>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
